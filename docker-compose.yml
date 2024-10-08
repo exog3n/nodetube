@@ -5,7 +5,7 @@ services:
     container_name: nodetube
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.dev
     ports:
       - "49161:3000"
     volumes:
